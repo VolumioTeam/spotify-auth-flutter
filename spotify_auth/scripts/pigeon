@@ -5,6 +5,6 @@ fvm dart run pigeon --input ./pigeon.dart \
                     --dart_out ./lib/spotify_auth_pigeon.g.dart \
                     --kotlin_out ./android/src/main/kotlin/org/volumio/spotify_auth/SpotifyAuthPigeon.kt \
                     --kotlin_package org.volumio.spotify_auth \
-                    --swift_out ./ios/Runner/SpotifyAuthPigeon.swift
+                    --swift_out ./ios/Classes/SpotifyAuthPigeon.swift
 
 fvm dart format ./lib/spotify_auth_pigeon.g.dart
